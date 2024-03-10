@@ -1,0 +1,13 @@
+Date = Пн мар 11 00:15:53 MSK 2024
+Host = cn-027
+WorkDir = /home/aeberezin
+
+Number of Nodes Allocated = 1
+Number of Tasks Allocated = 4
+Numbers of Cores/Task Allocated = 1
+Введите размеры матрицы n: 
+Введите точность вычислений eps: 
+==================================
+Тест функции...
+Метод Гаусса - Параллельный: 4-process | Время выполнения: 0.000294 s
+==================================
