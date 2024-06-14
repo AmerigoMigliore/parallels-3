@@ -1,0 +1,15 @@
+Date = Сб июн 15 01:18:17 MSK 2024
+Host = cn-001
+WorkDir = /home/admitrakova
+
+Number of Nodes Allocated = 1
+Number of Tasks Allocated = 1
+Numbers of Cores/Task Allocated = 1
+Введите размеры матрицы n: 
+Введите точность вычислений eps: 
+Введите элементы матрицы: 
+==================================
+Тест функции...
+Elapsed Time: 0.000859 seconds
+Метод Гаусса - Cuda. Время выполнения: 0.000859 s
+==================================

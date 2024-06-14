@@ -1,0 +1,719 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined main()
+             undefined         AL:1           <RETURN>
+             undefined8        Stack[-0x20]:8 local_20                                XREF[4]:     00404572(W), 
+                                                                                                   0040457f(R), 
+                                                                                                   004045dd(R), 
+                                                                                                   00404609(RW)  
+             undefined8        Stack[-0x28]:8 local_28                                XREF[3]:     004045b4(W), 
+                                                                                                   004045c1(R), 
+                                                                                                   00404602(RW)  
+             undefined1        Stack[-0x48]:1 local_48                                XREF[3]:     00404589(*), 
+                                                                                                   00404595(*), 
+                                                                                                   004045a8(*)  
+             undefined4        Stack[-0x4c]:4 local_4c                                XREF[3]:     00404514(*), 
+                                                                                                   0040457a(R), 
+                                                                                                   004045bc(R)  
+             undefined1        Stack[-0x58]:1 local_58                                XREF[1]:     00404543(*)  
+             undefined1        Stack[-0x60]:1 local_60                                XREF[2]:     004045c7(*), 
+                                                                                                   004045f3(*)  
+             undefined1        Stack[-0x78]:1 local_78                                XREF[5]:     004044f9(*), 
+                                                                                                   00404599(*), 
+                                                                                                   004045e1(*), 
+                                                                                                   00404650(*), 
+                                                                                                   004046d5(*)  
+             undefined8        Stack[-0x80]:8 local_80                                XREF[4]:     00404627(*), 
+                                                                                                   0040463f(R), 
+                                                                                                   0040467d(R), 
+                                                                                                   004046b8(R)  
+             undefined8        Stack[-0x88]:8 local_88                                XREF[5]:     00404633(*), 
+                                                                                                   0040465c(R), 
+                                                                                                   0040466d(R), 
+                                                                                                   00404679(R), 
+                                                                                                   004046c4(R)  
+             undefined4        Stack[-0x8c]:4 local_8c                                XREF[2]:     00404681(*), 
+                                                                                                   00404693(R)  
+             undefined4        Stack[-0x9c]:4 local_9c                                XREF[1]:     004044ec(W)  
+             undefined8        Stack[-0xa8]:8 local_a8                                XREF[1]:     004044f2(W)  
+                             main                                            XREF[5]:     Entry Point(*), 
+                                                                                          _start:004040af(*), 0048f1fc, 
+                                                                                          004928d8(*), 004a4082(*)  
+        004044e0 55              PUSH       RBP
+        004044e1 48 89 e5        MOV        RBP,RSP
+        004044e4 53              PUSH       RBX
+        004044e5 48 81 ec        SUB        RSP,0x98
+                 98 00 00 00
+        004044ec 89 bd 6c        MOV        dword ptr [RBP + local_9c],EDI
+                 ff ff ff
+        004044f2 48 89 b5        MOV        qword ptr [RBP + local_a8],RSI
+                 60 ff ff ff
+        004044f9 48 8d 45 90     LEA        RAX=>local_78,[RBP + -0x70]
+        004044fd 48 89 c7        MOV        RDI,RAX
+        00404500 e8 ed 05        CALL       std::vector<>::vector                            undefined vector(vector<std::vec
+                 00 00
+        00404505 bf 08 bc        MOV        EDI,DAT_0047bc08                                 = D0h
+                 47 00
+        0040450a b8 00 00        MOV        EAX,0x0
+                 00 00
+                             try { // try from 0040450f to 00404571 has its CatchHandler @
+                             LAB_0040450f                                    XREF[1]:     004a406d(*)  
+        0040450f e8 1c f0        CALL       <EXTERNAL>::printf                               int printf(char * __format, ...)
+                 ff ff
+        00404514 48 8d 45 bc     LEA        RAX=>local_4c,[RBP + -0x44]
+        00404518 48 89 c6        MOV        RSI,RAX
+        0040451b bf 39 bc        MOV        EDI,DAT_0047bc39                                 = 25h    %
+                 47 00
+        00404520 b8 00 00        MOV        EAX,0x0
+                 00 00
+        00404525 e8 e6 f5        CALL       <EXTERNAL>::scanf                                int scanf(char * __format, ...)
+                 ff ff
+        0040452a bf 0a 00        MOV        EDI,0xa
+                 00 00
+        0040452f e8 8c f6        CALL       <EXTERNAL>::putchar                              int putchar(int __c)
+                 ff ff
+        00404534 bf 40 bc        MOV        EDI,DAT_0047bc40                                 = D0h
+                 47 00
+        00404539 b8 00 00        MOV        EAX,0x0
+                 00 00
+        0040453e e8 ed ef        CALL       <EXTERNAL>::printf                               int printf(char * __format, ...)
+                 ff ff
+        00404543 48 8d 45 b0     LEA        RAX=>local_58,[RBP + -0x50]
+        00404547 48 89 c6        MOV        RSI,RAX
+        0040454a bf 7b bc        MOV        EDI,DAT_0047bc7b                                 = 25h    %
+                 47 00
+        0040454f b8 00 00        MOV        EAX,0x0
+                 00 00
+        00404554 e8 b7 f5        CALL       <EXTERNAL>::scanf                                int scanf(char * __format, ...)
+                 ff ff
+        00404559 bf 0a 00        MOV        EDI,0xa
+                 00 00
+        0040455e e8 5d f6        CALL       <EXTERNAL>::putchar                              int putchar(int __c)
+                 ff ff
+        00404563 bf 80 bc        MOV        EDI,DAT_0047bc80                                 = D0h
+                 47 00
+        00404568 b8 00 00        MOV        EAX,0x0
+                 00 00
+        0040456d e8 be ef        CALL       <EXTERNAL>::printf                               int printf(char * __format, ...)
+                 ff ff
+                             } // end try from 0040450f to 00404571
+        00404572 48 c7 45        MOV        qword ptr [RBP + local_20],0x0
+                 e8 00 00 
+                 00 00
+                             LAB_0040457a                                    XREF[1]:     0040460e(j)  
+        0040457a 8b 45 bc        MOV        EAX,dword ptr [RBP + local_4c]
+        0040457d 48 98           CDQE
+        0040457f 48 39 45 e8     CMP        qword ptr [RBP + local_20],RAX
+        00404583 0f 83 8a        JNC        LAB_00404613
+                 00 00 00
+        00404589 48 8d 45 c0     LEA        RAX=>local_48,[RBP + -0x40]
+        0040458d 48 89 c7        MOV        RDI,RAX
+        00404590 e8 bd 05        CALL       std::vector<>::vector                            undefined vector(vector<double,s
+                 00 00
+        00404595 48 8d 55 c0     LEA        RDX=>local_48,[RBP + -0x40]
+        00404599 48 8d 45 90     LEA        RAX=>local_78,[RBP + -0x70]
+        0040459d 48 89 d6        MOV        RSI,RDX
+        004045a0 48 89 c7        MOV        RDI,RAX
+                             try { // try from 004045a3 to 004045a7 has its CatchHandler @
+                             LAB_004045a3                                    XREF[1]:     004a4072(*)  
+        004045a3 e8 0a 06        CALL       std::vector<>::push_back                         undefined push_back(vector<std::
+                 00 00
+                             } // end try from 004045a3 to 004045a7
+        004045a8 48 8d 45 c0     LEA        RAX=>local_48,[RBP + -0x40]
+        004045ac 48 89 c7        MOV        RDI,RAX
+        004045af e8 ba 05        CALL       std::vector<>::~vector                           undefined ~vector(vector<double,
+                 00 00
+        004045b4 48 c7 45        MOV        qword ptr [RBP + local_28],0x0
+                 e0 00 00 
+                 00 00
+                             LAB_004045bc                                    XREF[1]:     00404607(j)  
+        004045bc 8b 45 bc        MOV        EAX,dword ptr [RBP + local_4c]
+        004045bf 48 98           CDQE
+        004045c1 48 39 45 e0     CMP        qword ptr [RBP + local_28],RAX
+        004045c5 73 42           JNC        LAB_00404609
+        004045c7 48 8d 45 a8     LEA        RAX=>local_60,[RBP + -0x58]
+        004045cb 48 89 c6        MOV        RSI,RAX
+        004045ce bf 7b bc        MOV        EDI,DAT_0047bc7b                                 = 25h    %
+                 47 00
+        004045d3 b8 00 00        MOV        EAX,0x0
+                 00 00
+                             try { // try from 004045d8 to 004046cf has its CatchHandler @
+                             LAB_004045d8                                    XREF[1]:     004a4078(*)  
+        004045d8 e8 33 f5        CALL       <EXTERNAL>::scanf                                int scanf(char * __format, ...)
+                 ff ff
+        004045dd 48 8b 55 e8     MOV        RDX,qword ptr [RBP + local_20]
+        004045e1 48 8d 45 90     LEA        RAX=>local_78,[RBP + -0x70]
+        004045e5 48 89 d6        MOV        RSI,RDX
+        004045e8 48 89 c7        MOV        RDI,RAX
+        004045eb e8 94 04        CALL       std::vector<>::operator[]                        undefined operator[](vector<std:
+                 00 00
+        004045f0 48 89 c2        MOV        RDX,RAX
+        004045f3 48 8d 45 a8     LEA        RAX=>local_60,[RBP + -0x58]
+        004045f7 48 89 c6        MOV        RSI,RAX
+        004045fa 48 89 d7        MOV        RDI,RDX
+        004045fd e8 e2 05        CALL       std::vector<>::push_back                         undefined push_back(vector<doubl
+                 00 00
+        00404602 48 83 45        ADD        qword ptr [RBP + local_28],0x1
+                 e0 01
+        00404607 eb b3           JMP        LAB_004045bc
+                             LAB_00404609                                    XREF[1]:     004045c5(j)  
+        00404609 48 83 45        ADD        qword ptr [RBP + local_20],0x1
+                 e8 01
+        0040460e e9 67 ff        JMP        LAB_0040457a
+                 ff ff
+                             LAB_00404613                                    XREF[1]:     00404583(j)  
+        00404613 bf b8 bc        MOV        EDI,s_================================_0047bcb8  = "=============================
+                 47 00
+        00404618 e8 13 f7        CALL       <EXTERNAL>::puts                                 int puts(char * __s)
+                 ff ff
+        0040461d bf db bc        MOV        EDI,DAT_0047bcdb                                 = D0h
+                 47 00
+        00404622 e8 09 f7        CALL       <EXTERNAL>::puts                                 int puts(char * __s)
+                 ff ff
+        00404627 48 8d 45 88     LEA        RAX=>local_80,[RBP + -0x78]
+        0040462b 48 89 c7        MOV        RDI,RAX
+        0040462e e8 3d 67        CALL       cudaEventCreate                                  undefined cudaEventCreate()
+                 04 00
+        00404633 48 8d 45 80     LEA        RAX=>local_88,[RBP + -0x80]
+        00404637 48 89 c7        MOV        RDI,RAX
+        0040463a e8 31 67        CALL       cudaEventCreate                                  undefined cudaEventCreate()
+                 04 00
+        0040463f 48 8b 45 88     MOV        RAX,qword ptr [RBP + local_80]
+        00404643 be 00 00        MOV        ESI,0x0
+                 00 00
+        00404648 48 89 c7        MOV        RDI,RAX
+        0040464b e8 00 69        CALL       cudaEventRecord                                  undefined cudaEventRecord()
+                 06 00
+        00404650 48 8d 45 90     LEA        RAX=>local_78,[RBP + -0x70]
+        00404654 48 89 c7        MOV        RDI,RAX
+        00404657 e8 32 fb        CALL       gaussianElimination                              undefined gaussianElimination(ve
+                 ff ff
+        0040465c 48 8b 45 80     MOV        RAX,qword ptr [RBP + local_88]
+        00404660 be 00 00        MOV        ESI,0x0
+                 00 00
+        00404665 48 89 c7        MOV        RDI,RAX
+        00404668 e8 e3 68        CALL       cudaEventRecord                                  undefined cudaEventRecord()
+                 06 00
+        0040466d 48 8b 45 80     MOV        RAX,qword ptr [RBP + local_88]
+        00404671 48 89 c7        MOV        RDI,RAX
+        00404674 e8 e7 6f        CALL       cudaEventSynchronize                             undefined cudaEventSynchronize()
+                 04 00
+        00404679 48 8b 55 80     MOV        RDX,qword ptr [RBP + local_88]
+        0040467d 48 8b 4d 88     MOV        RCX,qword ptr [RBP + local_80]
+        00404681 48 8d 85        LEA        RAX=>local_8c,[RBP + -0x84]
+                 7c ff ff ff
+        00404688 48 89 ce        MOV        RSI,RCX
+        0040468b 48 89 c7        MOV        RDI,RAX
+        0040468e e8 4d 73        CALL       cudaEventElapsedTime                             undefined cudaEventElapsedTime()
+                 04 00
+        00404693 f3 0f 10        MOVSS      XMM0,dword ptr [RBP + local_8c]
+                 85 7c ff 
+                 ff ff
+        0040469b f3 0f 5a c0     CVTSS2SD   XMM0,XMM0
+        0040469f bf f8 bc        MOV        EDI,DAT_0047bcf8                                 = D0h
+                 47 00
+        004046a4 b8 01 00        MOV        EAX,0x1
+                 00 00
+        004046a9 e8 82 ee        CALL       <EXTERNAL>::printf                               int printf(char * __format, ...)
+                 ff ff
+        004046ae bf b8 bc        MOV        EDI,s_================================_0047bcb8  = "=============================
+                 47 00
+        004046b3 e8 78 f6        CALL       <EXTERNAL>::puts                                 int puts(char * __s)
+                 ff ff
+        004046b8 48 8b 45 88     MOV        RAX,qword ptr [RBP + local_80]
+        004046bc 48 89 c7        MOV        RDI,RAX
+        004046bf e8 5c 71        CALL       cudaEventDestroy                                 undefined cudaEventDestroy()
+                 04 00
+        004046c4 48 8b 45 80     MOV        RAX,qword ptr [RBP + local_88]
+        004046c8 48 89 c7        MOV        RDI,RAX
+        004046cb e8 50 71        CALL       cudaEventDestroy                                 undefined cudaEventDestroy()
+                 04 00
+                             } // end try from 004045d8 to 004046cf
+        004046d0 bb 00 00        MOV        EBX,0x0
+                 00 00
+        004046d5 48 8d 45 90     LEA        RAX=>local_78,[RBP + -0x70]
+        004046d9 48 89 c7        MOV        RDI,RAX
+        004046dc e8 2d 04        CALL       std::vector<>::~vector                           undefined ~vector(vector<std::ve
+                 00 00
+        004046e1 89 d8           MOV        EAX,EBX
+        004046e3 eb 2b           JMP        LAB_00404710
+                             catch() { ... } // from try @ 004045a3 with catch @ 004046e5
+                             LAB_004046e5                                    XREF[1]:     004a4075(*)  
+        004046e5 48 89 c3        MOV        RBX,RAX
+        004046e8 48 8d 45 c0     LEA        RAX,[RBP + -0x40]
+        004046ec 48 89 c7        MOV        RDI,RAX
+        004046ef e8 7a 04        CALL       std::vector<>::~vector                           undefined ~vector(vector<double,
+                 00 00
+        004046f4 eb 03           JMP        LAB_004046f9
+                             catch() { ... } // from try @ 0040450f with catch @ 004046f6
+                             catch() { ... } // from try @ 004045d8 with catch @ 004046f6
+                             LAB_004046f6                                    XREF[2]:     004a406f(*), 004a407c(*)  
+        004046f6 48 89 c3        MOV        RBX,RAX
+                             LAB_004046f9                                    XREF[1]:     004046f4(j)  
+        004046f9 48 8d 45 90     LEA        RAX,[RBP + -0x70]
+        004046fd 48 89 c7        MOV        RDI,RAX
+        00404700 e8 09 04        CALL       std::vector<>::~vector                           undefined ~vector(vector<std::ve
+                 00 00
+        00404705 48 89 d8        MOV        RAX,RBX
+        00404708 48 89 c7        MOV        RDI,RAX
+                             LAB_0040470b                                    XREF[1]:     004a407f(*)  
+        0040470b e8 50 f7        CALL       <EXTERNAL>::_Unwind_Resume                       undefined _Unwind_Resume()
+                 ff ff
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+                             LAB_00404710                                    XREF[1]:     004046e3(j)  
+        00404710 48 81 c4        ADD        RSP,0x98
+                 98 00 00 00
+        00404717 5b              POP        RBX
+        00404718 5d              POP        RBP
+        00404719 c3              RET
+                             **************************************************************
+                             * ____nv_dummy_param_ref(void*)                              *
+                             **************************************************************
+                             undefined __stdcall ____nv_dummy_param_ref(void * param_1)
+             undefined         AL:1           <RETURN>
+             void *            RDI:8          param_1
+             undefined8        Stack[-0x10]:8 local_10                                XREF[2]:     0040471e(W), 
+                                                                                                   00404722(R)  
+                             _ZL22____nv_dummy_param_refPv                   XREF[3]:     __cudaUnregisterBinaryUtil:00404
+                             ____nv_dummy_param_ref                                       0048f204, 00492900(*)  
+        0040471a 55              PUSH       RBP
+        0040471b 48 89 e5        MOV        RBP,RSP
+        0040471e 48 89 7d f8     MOV        qword ptr [RBP + local_10],param_1
+        00404722 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        00404726 48 89 05        MOV        qword ptr [____nv_dummy_param_ref(void*)::__re
+                 13 60 2a 00
+        0040472d 90              NOP
+        0040472e 5d              POP        RBP
+        0040472f c3              RET
+                             **************************************************************
+                             * __cudaUnregisterBinaryUtil()                               *
+                             **************************************************************
+                             undefined __cudaUnregisterBinaryUtil(void)
+             undefined         AL:1           <RETURN>
+                             _ZL26__cudaUnregisterBinaryUtilv                XREF[3]:     __sti____cudaRegisterAll:0040495
+                             __cudaUnregisterBinaryUtil                                   0048f20c, 00492920(*)  
+        00404730 55              PUSH       RBP
+        00404731 48 89 e5        MOV        RBP,RSP
+        00404734 bf 48 a7        MOV        EDI,__cudaFatCubinHandle
+                 6a 00
+        00404739 e8 dc ff        CALL       ____nv_dummy_param_ref                           undefined ____nv_dummy_param_ref
+                 ff ff
+        0040473e 48 8b 05        MOV        RAX,qword ptr [__cudaFatCubinHandle]
+                 03 60 2a 00
+        00404745 48 89 c7        MOV        RDI,RAX
+        00404748 e8 33 48        CALL       __cudaUnregisterFatBinary                        undefined __cudaUnregisterFatBin
+                 01 00
+        0040474d 90              NOP
+        0040474e 5d              POP        RBP
+        0040474f c3              RET
+                             **************************************************************
+                             * __nv_init_managed_rt_with_module(void**)                   *
+                             **************************************************************
+                             undefined __stdcall __nv_init_managed_rt_with_module(voi
+             undefined         AL:1           <RETURN>
+             void * *          RDI:8          param_1
+             undefined8        Stack[-0x10]:8 local_10                                XREF[2]:     00404758(W), 
+                                                                                                   0040475c(R)  
+                             _ZL32__nv_init_managed_rt_with_modulePPv        XREF[2]:     0048f214, 00492940(*)  
+                             __nv_init_managed_rt_with_module
+        00404750 55              PUSH       RBP
+        00404751 48 89 e5        MOV        RBP,RSP
+        00404754 48 83 ec 10     SUB        RSP,0x10
+        00404758 48 89 7d f8     MOV        qword ptr [RBP + local_10],param_1
+        0040475c 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        00404760 48 89 c7        MOV        param_1,RAX
+        00404763 e8 08 4a        CALL       __cudaInitModule                                 undefined __cudaInitModule()
+                 01 00
+        00404768 c9              LEAVE
+        00404769 c3              RET
+                             **************************************************************
+                             * __device_stub__Z23gaussianEliminationCUDAPdii(double*, ... *
+                             **************************************************************
+                             undefined __stdcall __device_stub__Z23gaussianEliminatio
+             undefined         AL:1           <RETURN>
+             double *          RDI:8          param_1
+             int               ESI:4          param_2
+             int               EDX:4          param_3
+             undefined4        Stack[-0xc]:4  local_c                                 XREF[9]:     0040477c(W), 
+                                                                                                   00404783(R), 
+                                                                                                   00404791(RW), 
+                                                                                                   00404795(R), 
+                                                                                                   004047a3(RW), 
+                                                                                                   004047a7(R), 
+                                                                                                   004047b5(RW), 
+                                                                                                   00404813(R), 
+                                                                                                   00404825(R)  
+             undefined1        Stack[-0x28]:1 local_28                                XREF[2]:     00404821(*), 
+                                                                                                   00404861(*)  
+             undefined4        Stack[-0x2c]:4 local_2c                                XREF[3]:     004047d2(W), 
+                                                                                                   0040483f(R), 
+                                                                                                   00404871(R)  
+             undefined8        Stack[-0x34]:8 local_34                                XREF[4,1]:   004047c4(W), 
+                                                                                                   004047fa(*), 
+                                                                                                   0040483b(R), 
+                                                                                                   0040486d(R), 
+                                                                                                   004047cb(W)  
+             undefined4        Stack[-0x38]:4 local_38                                XREF[3]:     004047e7(W), 
+                                                                                                   00404837(R), 
+                                                                                                   00404869(R)  
+             undefined8        Stack[-0x40]:8 local_40                                XREF[4,1]:   004047d9(W), 
+                                                                                                   004047f6(*), 
+                                                                                                   00404833(R), 
+                                                                                                   00404865(R), 
+                                                                                                   004047e0(W)  
+             undefined8        Stack[-0x48]:8 local_48                                XREF[3]:     004047f2(*), 
+                                                                                                   0040481d(R), 
+                                                                                                   0040485d(R)  
+             undefined8        Stack[-0x50]:8 local_50                                XREF[3]:     004047ee(*), 
+                                                                                                   00404819(R), 
+                                                                                                   00404859(R)  
+             undefined8        Stack[-0x60]:8 local_60                                XREF[2]:     00404772(W), 
+                                                                                                   00404788(*)  
+             undefined4        Stack[-0x64]:4 local_64                                XREF[2]:     00404776(W), 
+                                                                                                   0040479a(*)  
+             undefined4        Stack[-0x68]:4 local_68                                XREF[2]:     00404779(W), 
+                                                                                                   004047ac(*)  
+                             _Z45__device_stub__Z23gaussianEliminationCUDAP  XREF[5]:     Entry Point(*), 
+                             __device_stub__Z23gaussianEliminationCUDAPdii                gaussianEliminationCUDA:004048b6
+                                                                                          0048f21c, 00492960(*), 
+                                                                                          004a4092(*)  
+        0040476a 55              PUSH       RBP
+        0040476b 48 89 e5        MOV        RBP,RSP
+        0040476e 48 83 ec 60     SUB        RSP,0x60
+        00404772 48 89 7d a8     MOV        qword ptr [RBP + local_60],param_1
+        00404776 89 75 a4        MOV        dword ptr [RBP + local_64],param_2
+        00404779 89 55 a0        MOV        dword ptr [RBP + local_68],param_3
+        0040477c c7 45 fc        MOV        dword ptr [RBP + local_c],0x0
+                 00 00 00 00
+        00404783 8b 45 fc        MOV        EAX,dword ptr [RBP + local_c]
+        00404786 48 98           CDQE
+        00404788 48 8d 55 a8     LEA        param_3=>local_60,[RBP + -0x58]
+        0040478c 48 89 54        MOV        qword ptr [RBP + RAX*0x8 + -0x20],param_3
+                 c5 e0
+        00404791 83 45 fc 01     ADD        dword ptr [RBP + local_c],0x1
+        00404795 8b 45 fc        MOV        EAX,dword ptr [RBP + local_c]
+        00404798 48 98           CDQE
+        0040479a 48 8d 55 a4     LEA        param_3=>local_64,[RBP + -0x5c]
+        0040479e 48 89 54        MOV        qword ptr [RBP + RAX*0x8 + -0x20],param_3
+                 c5 e0
+        004047a3 83 45 fc 01     ADD        dword ptr [RBP + local_c],0x1
+        004047a7 8b 45 fc        MOV        EAX,dword ptr [RBP + local_c]
+        004047aa 48 98           CDQE
+        004047ac 48 8d 55 a0     LEA        param_3=>local_68,[RBP + -0x60]
+        004047b0 48 89 54        MOV        qword ptr [RBP + RAX*0x8 + -0x20],param_3
+                 c5 e0
+        004047b5 83 45 fc 01     ADD        dword ptr [RBP + local_c],0x1
+        004047b9 48 c7 05        MOV        qword ptr [__device_stub__Z23gaussianEliminati
+                 8c 5f 2a 
+                 00 95 48 
+        004047c4 c7 45 d4        MOV        dword ptr [RBP + local_34],0x1
+                 01 00 00 00
+        004047cb c7 45 d8        MOV        dword ptr [RBP + local_34+0x4],0x1
+                 01 00 00 00
+        004047d2 c7 45 dc        MOV        dword ptr [RBP + local_2c],0x1
+                 01 00 00 00
+        004047d9 c7 45 c8        MOV        dword ptr [RBP + local_40],0x1
+                 01 00 00 00
+        004047e0 c7 45 cc        MOV        dword ptr [RBP + local_40+0x4],0x1
+                 01 00 00 00
+        004047e7 c7 45 d0        MOV        dword ptr [RBP + local_38],0x1
+                 01 00 00 00
+        004047ee 48 8d 4d b8     LEA        RCX=>local_50,[RBP + -0x48]
+        004047f2 48 8d 55 c0     LEA        param_3=>local_48,[RBP + -0x40]
+        004047f6 48 8d 75 c8     LEA        param_2=>local_40,[RBP + -0x38]
+        004047fa 48 8d 45 d4     LEA        RAX=>local_34,[RBP + -0x2c]
+        004047fe 48 89 c7        MOV        param_1,RAX
+                             try { // try from 00404801 to 00404884 has its CatchHandler @
+                             LAB_00404801                                    XREF[1]:     004a4088(*)  
+        00404801 e8 ca 4a        CALL       __cudaPopCallConfiguration                       undefined __cudaPopCallConfigura
+                 01 00
+        00404806 85 c0           TEST       EAX,EAX
+        00404808 0f 95 c0        SETNZ      AL
+        0040480b 84 c0           TEST       AL,AL
+        0040480d 0f 85 80        JNZ        LAB_00404893
+                 00 00 00
+        00404813 83 7d fc 00     CMP        dword ptr [RBP + local_c],0x0
+        00404817 75 40           JNZ        LAB_00404859
+        00404819 48 8b 7d b8     MOV        param_1,qword ptr [RBP + local_50]
+        0040481d 48 8b 75 c0     MOV        param_2,qword ptr [RBP + local_48]
+        00404821 48 8d 45 e0     LEA        RAX=>local_28,[RBP + -0x20]
+        00404825 8b 55 fc        MOV        param_3,dword ptr [RBP + local_c]
+        00404828 48 63 d2        MOVSXD     param_3,param_3
+        0040482b 48 c1 e2 03     SHL        param_3,0x3
+        0040482f 4c 8d 0c 10     LEA        R9,[RAX + param_3*0x1]
+        00404833 48 8b 4d c8     MOV        RCX,qword ptr [RBP + local_40]
+        00404837 44 8b 45 d0     MOV        R8D,dword ptr [RBP + local_38]
+        0040483b 48 8b 55 d4     MOV        param_3,qword ptr [RBP + local_34]
+        0040483f 8b 45 dc        MOV        EAX,dword ptr [RBP + local_2c]
+        00404842 57              PUSH       param_1
+        00404843 56              PUSH       param_2
+        00404844 48 89 d6        MOV        param_2,param_3
+        00404847 89 c2           MOV        param_3,EAX
+        00404849 bf 95 48        MOV        param_1,gaussianEliminationCUDA
+                 40 00
+        0040484e e8 11 01        CALL       cudaLaunchKernel<char>                           cudaError cudaLaunchKernel<char>
+                 00 00
+        00404853 48 83 c4 10     ADD        RSP,0x10
+        00404857 eb 3a           JMP        LAB_00404893
+                             LAB_00404859                                    XREF[1]:     00404817(j)  
+        00404859 48 8b 7d b8     MOV        param_1,qword ptr [RBP + local_50]
+        0040485d 48 8b 75 c0     MOV        param_2,qword ptr [RBP + local_48]
+        00404861 4c 8d 4d e0     LEA        R9=>local_28,[RBP + -0x20]
+        00404865 48 8b 4d c8     MOV        RCX,qword ptr [RBP + local_40]
+        00404869 44 8b 45 d0     MOV        R8D,dword ptr [RBP + local_38]
+        0040486d 48 8b 55 d4     MOV        param_3,qword ptr [RBP + local_34]
+        00404871 8b 45 dc        MOV        EAX,dword ptr [RBP + local_2c]
+        00404874 57              PUSH       param_1
+        00404875 56              PUSH       param_2
+        00404876 48 89 d6        MOV        param_2,param_3
+        00404879 89 c2           MOV        param_3,EAX
+        0040487b bf 95 48        MOV        param_1,gaussianEliminationCUDA
+                 40 00
+        00404880 e8 df 00        CALL       cudaLaunchKernel<char>                           cudaError cudaLaunchKernel<char>
+                 00 00
+                             } // end try from 00404801 to 00404884
+        00404885 48 83 c4 10     ADD        RSP,0x10
+        00404889 eb 08           JMP        LAB_00404893
+                             catch() { ... } // from try @ 00404801 with catch @ 0040488b
+                             LAB_0040488b                                    XREF[1]:     004a408c(*)  
+        0040488b 48 89 c7        MOV        RDI,RAX
+                             LAB_0040488e                                    XREF[1]:     004a408f(*)  
+        0040488e e8 cd f5        CALL       <EXTERNAL>::_Unwind_Resume                       undefined _Unwind_Resume()
+                 ff ff
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+                             LAB_00404893                                    XREF[3]:     0040480d(j), 00404857(j), 
+                                                                                          00404889(j)  
+        00404893 c9              LEAVE
+        00404894 c3              RET
+                             **************************************************************
+                             * gaussianEliminationCUDA(double*, int, int)                 *
+                             **************************************************************
+                             undefined __stdcall gaussianEliminationCUDA(double * par
+             undefined         AL:1           <RETURN>
+             double *          RDI:8          param_1
+             int               ESI:4          param_2
+             int               EDX:4          param_3
+             undefined8        Stack[-0x10]:8 local_10                                XREF[2]:     0040489d(W), 
+                                                                                                   004048ad(R)  
+             undefined4        Stack[-0x14]:4 local_14                                XREF[2]:     004048a1(W), 
+                                                                                                   004048aa(R)  
+             undefined4        Stack[-0x18]:4 local_18                                XREF[2]:     004048a4(W), 
+                                                                                                   004048a7(R)  
+                             _Z23gaussianEliminationCUDAPdii                 XREF[8]:     Entry Point(*), 
+                             gaussianEliminationCUDA                                      gaussianElimination:0040437e(c), 
+                                                                                          __device_stub__Z23gaussianElimin
+                                                                                          __device_stub__Z23gaussianElimin
+                                                                                          __device_stub__Z23gaussianElimin
+                                                                                          __nv_cudaEntityRegisterCallback:
+                                                                                          0048f224, 00492988(*)  
+        00404895 55              PUSH       RBP
+        00404896 48 89 e5        MOV        RBP,RSP
+        00404899 48 83 ec 10     SUB        RSP,0x10
+        0040489d 48 89 7d f8     MOV        qword ptr [RBP + local_10],param_1
+        004048a1 89 75 f4        MOV        dword ptr [RBP + local_14],param_2
+        004048a4 89 55 f0        MOV        dword ptr [RBP + local_18],param_3
+        004048a7 8b 55 f0        MOV        param_3,dword ptr [RBP + local_18]
+        004048aa 8b 4d f4        MOV        ECX,dword ptr [RBP + local_14]
+        004048ad 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        004048b1 89 ce           MOV        param_2,ECX
+        004048b3 48 89 c7        MOV        param_1,RAX
+        004048b6 e8 af fe        CALL       __device_stub__Z23gaussianEliminationCUDAPdii    undefined __device_stub__Z23gaus
+                 ff ff
+        004048bb 90              NOP
+        004048bc c9              LEAVE
+        004048bd c3              RET
+                             **************************************************************
+                             * __nv_cudaEntityRegisterCallback(void**)                    *
+                             **************************************************************
+                             undefined __stdcall __nv_cudaEntityRegisterCallback(void
+             undefined         AL:1           <RETURN>
+             void * *          RDI:8          param_1
+             undefined8        Stack[-0x10]:8 local_10                                XREF[4]:     004048c6(W), 
+                                                                                                   004048ca(R), 
+                                                                                                   004048d5(R), 
+                                                                                                   004048e1(R)  
+                             _ZL31__nv_cudaEntityRegisterCallbackPPv         XREF[4]:     __sti____cudaRegisterAll:0040493
+                             __nv_cudaEntityRegisterCallback                              __sti____cudaRegisterAll:0040494
+                                                                                          0048f22c, 004929a8(*)  
+        004048be 55              PUSH       RBP
+        004048bf 48 89 e5        MOV        RBP,RSP
+        004048c2 48 83 ec 10     SUB        RSP,0x10
+        004048c6 48 89 7d f8     MOV        qword ptr [RBP + local_10],param_1
+        004048ca 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        004048ce 48 89 05        MOV        qword ptr [__nv_cudaEntityRegisterCallback(voi
+                 83 5e 2a 00
+        004048d5 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        004048d9 48 89 c7        MOV        param_1,RAX
+        004048dc e8 97 f8        CALL       __nv_save_fatbinhandle_for_managed_rt            undefined __nv_save_fatbinhandle
+                 ff ff
+        004048e1 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        004048e5 6a 00           PUSH       0x0
+        004048e7 6a 00           PUSH       0x0
+        004048e9 6a 00           PUSH       0x0
+        004048eb 6a 00           PUSH       0x0
+        004048ed 41 b9 00        MOV        R9D,0x0
+                 00 00 00
+        004048f3 41 b8 ff        MOV        R8D,0xffffffff
+                 ff ff ff
+        004048f9 b9 48 bd        MOV        ECX,s__Z23gaussianEliminationCUDAPdii_0047bd48   = "_Z23gaussianEliminationCUDAPd
+                 47 00
+        004048fe ba 48 bd        MOV        EDX,s__Z23gaussianEliminationCUDAPdii_0047bd48   = "_Z23gaussianEliminationCUDAPd
+                 47 00
+        00404903 be 95 48        MOV        ESI,gaussianEliminationCUDA
+                 40 00
+        00404908 48 89 c7        MOV        param_1,RAX
+        0040490b e8 f0 47        CALL       __cudaRegisterFunction                           undefined __cudaRegisterFunction
+                 01 00
+        00404910 48 83 c4 20     ADD        RSP,0x20
+        00404914 90              NOP
+        00404915 c9              LEAVE
+        00404916 c3              RET
+                             **************************************************************
+                             * __sti____cudaRegisterAll()                                 *
+                             **************************************************************
+                             undefined __sti____cudaRegisterAll(void)
+             undefined         AL:1           <RETURN>
+             undefined8        Stack[-0x10]:8 local_10                                XREF[2]:     00404930(W), 
+                                                                                                   0040493f(R)  
+                             _ZL24__sti____cudaRegisterAllv                  XREF[4]:     Entry Point(*), 0048f234, 
+                             __sti____cudaRegisterAll                                     004929c8(*), 006a5010(*)  
+        00404917 55              PUSH       RBP
+        00404918 48 89 e5        MOV        RBP,RSP
+        0040491b 48 83 ec 10     SUB        RSP,0x10
+        0040491f bf 90 f1        MOV        EDI,__fatDeviceText
+                 48 00
+        00404924 e8 f7 45        CALL       __cudaRegisterFatBinary                          undefined __cudaRegisterFatBinar
+                 01 00
+        00404929 48 89 05        MOV        qword ptr [__cudaFatCubinHandle],RAX
+                 18 5e 2a 00
+        00404930 48 c7 45        MOV        qword ptr [RBP + local_10],__nv_cudaEntityRegi
+                 f8 be 48 
+                 40 00
+        00404938 48 8b 15        MOV        RDX,qword ptr [__cudaFatCubinHandle]
+                 09 5e 2a 00
+        0040493f 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        00404943 48 89 d7        MOV        RDI,RDX
+        00404946 ff d0           CALL       RAX=>__nv_cudaEntityRegisterCallback             undefined __nv_cudaEntityRegiste
+        00404948 48 8b 05        MOV        RAX,qword ptr [__cudaFatCubinHandle]
+                 f9 5d 2a 00
+        0040494f 48 89 c7        MOV        RDI,RAX
+        00404952 e8 f9 45        CALL       __cudaRegisterFatBinaryEnd                       undefined __cudaRegisterFatBinar
+                 01 00
+        00404957 bf 30 47        MOV        EDI,__cudaUnregisterBinaryUtil
+                 40 00
+        0040495c e8 4f 72        CALL       atexit                                           int atexit(__func * __func)
+                 07 00
+        00404961 90              NOP
+        00404962 c9              LEAVE
+        00404963 c3              RET
+                             **************************************************************
+                             * cudaError cudaLaunchKernel<char>(char const*, dim3, dim... *
+                             **************************************************************
+                             cudaError __stdcall cudaLaunchKernel<char>(char * param_
+             cudaError         EAX:4          <RETURN>
+             char *            RDI:8          param_1
+             dim3              ESI:4          param_2
+             dim3              EDX:4          param_3
+             void * *          RCX:8          param_4
+             ulong             R8:8           param_5
+             CUstream_st *     R9:8           param_6
+             undefined8        Stack[-0x10]:8 local_10                                XREF[2]:     0040496c(W), 
+                                                                                                   0040499a(R)  
+             undefined4        Stack[-0x18]:4 local_18                                XREF[2]:     0040497e(W), 
+                                                                                                   00404997(R)  
+             undefined8        Stack[-0x20]:8 local_20                                XREF[2]:     0040497a(W), 
+                                                                                                   00404993(R)  
+             undefined4        Stack[-0x28]:4 local_28                                XREF[2]:     00404985(W), 
+                                                                                                   00404990(R)  
+             undefined8        Stack[-0x30]:8 local_30                                XREF[2]:     00404981(W), 
+                                                                                                   0040498c(R)  
+             undefined8        Stack[-0x38]:8 local_38                                XREF[2]:     00404976(W), 
+                                                                                                   00404988(R)  
+                             _Z16cudaLaunchKernelIcE9cudaErrorPKT_4dim3S4_P  XREF[4]:     __device_stub__Z23gaussianElimin
+                             cudaLaunchKernel<char>                                       __device_stub__Z23gaussianElimin
+                                                                                          0048f23c, 00492b48(*)  
+        00404964 55              PUSH       RBP
+        00404965 48 89 e5        MOV        RBP,RSP
+        00404968 48 83 ec 30     SUB        RSP,0x30
+        0040496c 48 89 7d f8     MOV        qword ptr [RBP + local_10],param_1
+        00404970 48 89 c8        MOV        RAX,param_4
+        00404973 44 89 c1        MOV        param_4,param_5
+        00404976 4c 89 4d d0     MOV        qword ptr [RBP + local_38],param_6
+        0040497a 48 89 75 e8     MOV        qword ptr [RBP + local_20],param_2
+        0040497e 89 55 f0        MOV        dword ptr [RBP + local_18],param_3
+        00404981 48 89 45 d8     MOV        qword ptr [RBP + local_30],RAX
+        00404985 89 4d e0        MOV        dword ptr [RBP + local_28],param_4
+        00404988 4c 8b 45 d0     MOV        param_5,qword ptr [RBP + local_38]
+        0040498c 48 8b 4d d8     MOV        param_4,qword ptr [RBP + local_30]
+        00404990 8b 7d e0        MOV        param_1,dword ptr [RBP + local_28]
+        00404993 48 8b 75 e8     MOV        param_2,qword ptr [RBP + local_20]
+        00404997 8b 55 f0        MOV        param_3,dword ptr [RBP + local_18]
+        0040499a 48 8b 45 f8     MOV        RAX,qword ptr [RBP + local_10]
+        0040499e ff 75 18        PUSH       qword ptr [RBP + Stack[0x10]]
+        004049a1 ff 75 10        PUSH       qword ptr [RBP + Stack[0x8]]
+        004049a4 4d 89 c1        MOV        param_6,param_5
+        004049a7 41 89 f8        MOV        param_5,param_1
+        004049aa 48 89 c7        MOV        param_1,RAX
+        004049ad e8 ce 70        CALL       cudaLaunchKernel                                 undefined cudaLaunchKernel(undef
+                 06 00
+        004049b2 48 83 c4 10     ADD        RSP,0x10
+        004049b6 c9              LEAVE
+        004049b7 c3              RET
+                             **************************************************************
+                             * __static_initialization_and_destruction_0(int, int)        *
+                             **************************************************************
+                             undefined __stdcall __static_initialization_and_destruct
+             undefined         AL:1           <RETURN>
+             int               EDI:4          param_1
+             int               ESI:4          param_2
+             undefined4        Stack[-0xc]:4  local_c                                 XREF[2]:     004049c0(W), 
+                                                                                                   004049c6(R)  
+             undefined4        Stack[-0x10]:4 local_10                                XREF[2]:     004049c3(W), 
+                                                                                                   004049cc(R)  
+                             _Z41__static_initialization_and_destruction_0ii XREF[3]:     _GLOBAL__sub_I_gaussianEliminati
+                             __static_initialization_and_destruction_0                    0048f244, 00493958(*)  
+        004049b8 55              PUSH       RBP
+        004049b9 48 89 e5        MOV        RBP,RSP
+        004049bc 48 83 ec 10     SUB        RSP,0x10
+        004049c0 89 7d fc        MOV        dword ptr [RBP + local_c],param_1
+        004049c3 89 75 f8        MOV        dword ptr [RBP + local_10],param_2
+        004049c6 83 7d fc 01     CMP        dword ptr [RBP + local_c],0x1
+        004049ca 75 27           JNZ        LAB_004049f3
+        004049cc 81 7d f8        CMP        dword ptr [RBP + local_10],0xffff
+                 ff ff 00 00
+        004049d3 75 1e           JNZ        LAB_004049f3
+        004049d5 bf 38 a7        MOV        param_1,std::__ioinit
+                 6a 00
+        004049da e8 41 f3        CALL       <EXTERNAL>::std::ios_base::Init::Init            undefined Init(Init * this)
+                 ff ff
+        004049df ba a8 a5        MOV        EDX,__dso_handle
+                 6a 00
+        004049e4 be 38 a7        MOV        param_2,std::__ioinit
+                 6a 00
+        004049e9 bf a0 3f        MOV        param_1,std::ios_base::Init::~Init
+                 40 00
+        004049ee e8 4d ef        CALL       <EXTERNAL>::__cxa_atexit                         undefined __cxa_atexit()
+                 ff ff
+                             LAB_004049f3                                    XREF[2]:     004049ca(j), 004049d3(j)  
+        004049f3 90              NOP
+        004049f4 c9              LEAVE
+        004049f5 c3              RET
+                             **************************************************************
+                             * gaussianElimination(std::vector<std::vector<double, std... *
+                             **************************************************************
+                             undefined _GLOBAL__sub_I_gaussianElimination(void)
+             undefined         AL:1           <RETURN>
+                             _GLOBAL__sub_I__Z19gaussianEliminationRSt6vect  XREF[4]:     Entry Point(*), 0048f24c, 
+                             _GLOBAL__sub_I_gaussianElimination                           00493978(*), 006a5018(*)  
+        004049f6 55              PUSH       RBP
+        004049f7 48 89 e5        MOV        RBP,RSP
+        004049fa be ff ff        MOV        ESI,0xffff
+                 00 00
+        004049ff bf 01 00        MOV        EDI,0x1
+                 00 00
+        00404a04 e8 af ff        CALL       __static_initialization_and_destruction_0        undefined __static_initializatio
+                 ff ff
+        00404a09 5d              POP        RBP
+        00404a0a c3              RET
+        00404a0b 90              ??         90h
